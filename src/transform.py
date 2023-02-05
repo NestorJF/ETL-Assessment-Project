@@ -20,4 +20,6 @@ class Transformation:
         new_dataset["Date"] = pd.to_datetime(new_dataset["Date"])
         new_dataset["Year of the Sale"] = new_dataset["Date"].dt.strftime('%Y')
         new_dataset["Date"] = new_dataset["Date"].dt.strftime('%m/%d/%Y')
+        new_dataset['Car Model'] = new_dataset['Car Model'].astype('category')
+        new_dataset['Car Model'] = new_dataset['Car Model'].cat.codes
         return new_dataset
