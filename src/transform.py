@@ -17,5 +17,7 @@ class Transformation:
     def _transform_dataframe(self):
         new_dataset = self.dataset.copy()
         new_dataset = new_dataset.dropna()
-        new_dataset["Date"] = pd.to_datetime(new_dataset["Date"]).dt.strftime('%m/%d/%Y')
+        new_dataset["Date"] = pd.to_datetime(new_dataset["Date"])
+        new_dataset["Year of the Sale"] = new_dataset["Date"].dt.strftime('%Y')
+        new_dataset["Date"] = new_dataset["Date"].dt.strftime('%m/%d/%Y')
         return new_dataset
