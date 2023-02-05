@@ -1,501 +1,109 @@
-Date,Car Model,Seat Color,Car Color,Value (US$ mi),Value off (US$ mi),discount (%),Total (US$ mi),Sales Person,City,Country
-4/1/2017,Ferrari Pininfarina Sergio,brown,blue,2.31525,2.290759821,3,2.222037027,Sophia,managua,nicaragua
-16/1/2017,McLaren P1 LM,red,black,2.7195,2.686196603,1,2.659334637,Sophia,managua,nicaragua
-12/1/2017,Ferrari Pininfarina Sergio,black,silver,2.205,2.184845121,1,2.16299667,Helena,managua,nicaragua
-9/1/2017,Bugatti Chiron,brown,gold,2.238075,2.211546363,2,2.167315435,Sophia,managua,nicaragua
-10/1/2017,Bugatti La Voiture Noire,black,white,13.3518,13.15179265,1,13.02027472,Manuela,managua,nicaragua
-17/1/2017,Bugatti Veyron by Mansory Vivere,black,silver,2.499,2.46991896,1,2.445219771,Luisa,managua,nicaragua
-16/1/2017,Rolls-Royce Sweptail,white,silver,9.59616,9.44846083,0,9.44846083,Isabella,managua,nicaragua
-18/1/2017,Bugatti La Voiture Noire,brown,gold,14.431725,14.21428045,0,14.21428045,Heloisa,managua,nicaragua
-13/1/2017,Bugatti Veyron by Mansory Vivere,brown,red,2.62395,2.598104258,1,2.572123215,Sophia,managua,nicaragua
-4/1/2017,Bugatti La Voiture Noire,black,white,13.3518,13.17232239,0,13.17232239,Laura,managua,nicaragua
-23/1/2017,Rolls-Royce Sweptail,black,blue,9.408,9.279041395,2,9.093460567,Luisa,managua,nicaragua
-15/1/2017,Bugatti Chiron,black,gold,2.1315,2.1075058,2,2.065355684,Manuela,managua,nicaragua
-6/1/2017,Rolls-Royce Sweptail,red,gold,9.8784,9.757913636,3,9.465176227,Alice,managua,nicaragua
-21/1/2017,Koenigsegg CCXR Trevita,black,black,3.36,3.306845597,2,3.240708685,Helena,managua,nicaragua
-8/1/2017,Ferrari Pininfarina Sergio,black,black,2.1,2.07054296,3,2.008426671,Lorena,new york,united state
-11/1/2017,Bugatti Chiron,red,blue,2.238075,2.21771084,1,2.195533732,Cecilia,new york,united state
-6/1/2017,Bugatti Veyron by Mansory Vivere,red,black,2.499,2.46299437,1,2.438364427,Valentina,new york,united state
-5/1/2017,McLaren P1 LM,white,silver,2.77389,2.740261726,3,2.658053874,Matt,new york,united state
-11/1/2017,Ferrari Pininfarina Sergio,black,red,2.205,2.181404354,3,2.115962224,Giovanna,new york,united state
-15/1/2017,Koenigsegg CCXR Trevita,black,gold,3.528,3.492328099,1,3.457404818,Lorena,new york,united state
-13/1/2017,Rolls-Royce Sweptail,brown,black,9.408,9.26763532,3,8.98960626,Livia,new york,united state
-23/1/2017,Ferrari Pininfarina Sergio,white,white,2.18484,2.150755757,3,2.086233085,Mariana,new york,united state
-17/1/2017,Aston Martin Valkyrie,black,silver,2.352,2.327673294,0,2.327673294,Cecilia,new york,united state
-20/1/2017,Bugatti Veyron by Mansory Vivere,brown,red,2.62395,2.587050693,1,2.561180186,Liz,new york,united state
-15/1/2017,Bugatti Veyron by Mansory Vivere,black,blue,2.499,2.471043231,2,2.421622366,Cecilia,new york,united state
-,,,,,,,,,,
-7/1/2017,McLaren P1 LM,black,gold,2.7195,2.68826043,3,2.607612617,Miguel,toronto,canada
-7/1/2017,Bugatti Veyron by Mansory Vivere,black,red,2.499,2.469353627,2,2.419966555,Rafael,lisboa,portugal
-14/1/2017,Aston Martin Valkyrie,white,red,2.39904,2.37717944,0,2.37717944,Isaac,lisboa,portugal
-20/1/2017,Lamborghini Veneno Roadster,red,gold,3.472875,3.418843458,0,3.418843458,Nicolas,lisboa,portugal
-14/1/2017,Ferrari Pininfarina Sergio,black,blue,2.205,2.172571615,3,2.107394466,Rafael,lisboa,portugal
-9/1/2017,Ferrari Pininfarina Sergio,black,silver,2.205,2.172276264,0,2.172276264,Isaac,lisboa,portugal
-4/1/2017,Bugatti Veyron by Mansory Vivere,black,blue,2.499,2.461542071,3,2.387695809,Rafael,lisboa,portugal
-7/1/2017,Bugatti Veyron by Mansory Vivere,black,gold,2.499,2.467044373,1,2.44237393,Isaac,lisboa,portugal
-1/1/2017,Bugatti La Voiture Noire,white,red,14.01939,13.80152987,2,13.52549927,Henrique,lisboa,portugal
-14/1/2017,Bugatti La Voiture Noire,brown,silver,14.431725,14.26338467,1,14.12075082,Henrique,lisboa,portugal
-6/1/2017,Bugatti La Voiture Noire,white,white,13.618836,13.50232575,2,13.23227923,Isaac,lisboa,portugal
-19/1/2017,Rolls-Royce Sweptail,brown,blue,9.8784,9.758341605,3,9.465591357,Nicolas,lisboa,portugal
-21/1/2017,McLaren P1 LM,brown,blue,2.855475,2.81950375,2,2.763113675,Rafael,lisboa,portugal
-13/1/2017,Aston Martin Valkyrie,brown,blue,2.4696,2.443676729,0,2.443676729,Henrique,lisboa,portugal
-1/1/2017,Aston Martin Valkyrie,red,white,2.39904,2.373903474,0,2.373903474,Henrique,lisboa,portugal
-11/1/2017,W Motors Lykan Hypersport,black,white,2.4276,2.405981103,2,2.357861481,Henrique,lisboa,portugal
-13/1/2017,Koenigsegg CCXR Trevita,white,red,3.59856,3.546715529,2,3.475781218,Nicolas,lisboa,portugal
-21/1/2017,McLaren P1 LM,red,red,2.855475,2.810550378,1,2.782444875,Nicolas,lisboa,portugal
-17/1/2017,W Motors Lykan Hypersport,red,black,2.499,2.459429411,2,2.410240823,Nicolas,lisboa,portugal
-8/1/2017,Bugatti La Voiture Noire,red,blue,14.431725,14.24209174,1,14.09967083,Nicolas,lisboa,portugal
-20/1/2017,Lamborghini Veneno Roadster,brown,silver,3.472875,3.426986838,3,3.324177233,Nicolas,lisboa,portugal
-22/1/2017,Bugatti Chiron,brown,black,2.1315,2.111624722,1,2.090508475,Nicolas,lisboa,portugal
-1/1/2017,Bugatti Veyron by Mansory Vivere,black,gold,2.499,2.467899359,0,2.467899359,Sakura,tokio,japan
-6/1/2017,Rolls-Royce Sweptail,brown,red,9.8784,9.764346711,1,9.666703244,Naomi,tokio,japan
-12/1/2017,Bugatti Veyron by Mansory Vivere,black,silver,2.499,2.459385128,2,2.410197425,Hinata,tokio,japan
-15/1/2017,McLaren P1 LM,black,white,2.6418,2.61466518,0,2.61466518,Hana,tokio,japan
-6/1/2017,Bugatti Chiron,brown,gold,2.238075,2.212135278,2,2.167892573,Harumi,tokio,japan
-24/1/2017,W Motors Lykan Hypersport,red,red,2.62395,2.598086694,1,2.572105827,Hana,tokio,japan
-9/1/2017,Bugatti La Voiture Noire,white,gold,14.01939,13.82000196,1,13.68180194,Naomi,tokio,japan
-19/1/2017,Bugatti Chiron,black,blue,2.1315,2.10338968,2,2.061321886,Sakura,tokio,japan
-20/1/2017,Bugatti La Voiture Noire,white,blue,14.01939,13.801538,3,13.38749186,Akemi,tokio,japan
-2/1/2017,McLaren P1 LM,white,blue,2.77389,2.729869173,3,2.647973097,Sakura,tokio,japan
-12/1/2017,W Motors Lykan Hypersport,black,red,2.499,2.476980198,3,2.402670792,Saori,tokio,japan
-18/1/2017,Lamborghini Veneno Roadster,white,gold,3.37365,3.330627828,1,3.297321549,Hinata,tokio,japan
-7/1/2017,McLaren P1 LM,black,gold,2.7195,2.686640663,1,2.659774257,Akemi,tokio,japan
-2/1/2017,Koenigsegg CCXR Trevita,black,red,3.528,3.495400546,0,3.495400546,Naomi,tokio,japan
-18/1/2017,Bugatti Chiron,red,red,2.238075,2.202433534,2,2.158384864,Aisha,riad,Saudi Arabia
-3/1/2017,Bugatti Veyron by Mansory Vivere,white,silver,2.54898,2.522572624,3,2.446895446,Iasmin,riad,Saudi Arabia
-23/1/2017,Bugatti Veyron by Mansory Vivere,brown,gold,2.62395,2.590577276,0,2.590577276,Nadia,riad,Saudi Arabia
-8/1/2017,Bugatti Chiron,brown,silver,2.238075,2.212187685,2,2.167943931,Isa,riad,Saudi Arabia
-11/1/2017,Bugatti Chiron,black,white,2.0706,2.039283529,3,1.978105023,Aisha,riad,Saudi Arabia
-9/1/2017,McLaren P1 LM,black,white,2.6418,2.604811875,2,2.552715637,Aisha,riad,Saudi Arabia
-20/1/2017,Bugatti Chiron,black,black,2.03,2.009067656,3,1.948795626,Isa,riad,Saudi Arabia
-14/1/2017,Koenigsegg CCXR Trevita,white,white,3.495744,3.446496818,3,3.343101914,Soraia,riad,Saudi Arabia
-2/1/2017,Lamborghini Veneno Roadster,brown,gold,3.472875,3.430476911,3,3.327562603,Laila,riad,Saudi Arabia
-24/1/2017,Rolls-Royce Sweptail,black,white,9.1392,9.007614524,1,8.917538378,Isa,riad,Saudi Arabia
-10/1/2017,W Motors Lykan Hypersport,red,gold,2.62395,2.599283455,2,2.547297786,Nadia,riad,Saudi Arabia
-16/1/2017,Ferrari Pininfarina Sergio,white,black,2.142,2.114425528,2,2.072137018,Jamile,riad,Saudi Arabia
-17/1/2017,Ferrari Pininfarina Sergio,white,white,2.18484,2.150856472,1,2.129347907,Isa,riad,Saudi Arabia
-7/1/2017,Ferrari Pininfarina Sergio,white,silver,2.2491,2.218364621,0,2.218364621,Nadia,riad,Saudi Arabia
-11/1/2017,McLaren P1 LM,white,black,2.6418,2.60150166,3,2.52345661,Nadia,riad,Saudi Arabia
-22/1/2017,W Motors Lykan Hypersport,white,white,2.476152,2.450282631,0,2.450282631,Iasmin,riad,Saudi Arabia
-4/1/2017,Bugatti La Voiture Noire,red,white,14.01939,13.89040731,2,13.61259916,Fatima,riad,Saudi Arabia
-23/2/2017,McLaren P1 LM,brown,silver,2.855475,2.821031437,0,2.821031437,Luisa,managua,nicaragua
-22/2/2017,Lamborghini Veneno Roadster,red,blue,3.472875,3.419912798,1,3.38571367,Helena,managua,nicaragua
-15/2/2017,Bugatti Chiron,white,red,2.17413,2.141623813,3,2.077375098,Helena,managua,nicaragua
-24/2/2017,Bugatti La Voiture Noire,red,gold,14.431725,14.21488657,2,13.93058884,Heloisa,managua,nicaragua
-4/2/2017,Bugatti Veyron by Mansory Vivere,white,white,2.476152,2.447085916,0,2.447085916,Sophia,managua,nicaragua
-9/2/2017,McLaren P1 LM,red,silver,2.855475,2.813220305,1,2.785088101,Luisa,managua,nicaragua
-13/2/2017,Koenigsegg CCXR Trevita,white,black,3.4272,3.374900296,1,3.341151293,Manuela,managua,nicaragua
-21/2/2017,Bugatti Veyron by Mansory Vivere,red,red,2.62395,2.599844407,1,2.573845963,Helena,managua,nicaragua
-2/2/2017,McLaren P1 LM,red,red,2.855475,2.814072454,0,2.814072454,Helena,managua,nicaragua
-5/2/2017,W Motors Lykan Hypersport,black,blue,2.499,2.465963151,3,2.391984256,Heloisa,managua,nicaragua
-14/2/2017,Lamborghini Veneno Roadster,brown,silver,3.472875,3.432597728,3,3.329619796,Isabella,managua,nicaragua
-14/2/2017,Bugatti La Voiture Noire,red,white,14.01939,13.829833,1,13.69153467,Helena,managua,nicaragua
-17/2/2017,Bugatti Veyron by Mansory Vivere,red,red,2.62395,2.588990287,2,2.537210481,Helena,managua,nicaragua
-20/2/2017,Bugatti Chiron,red,white,2.17413,2.140653505,3,2.076433899,Heloisa,managua,nicaragua
-18/2/2017,McLaren P1 LM,white,gold,2.77389,2.749442517,1,2.721948092,Manuela,managua,nicaragua
-7/2/2017,McLaren P1 LM,black,silver,2.7195,2.684958071,0,2.684958071,Heloisa,managua,nicaragua
-24/2/2017,Koenigsegg CCXR Trevita,black,silver,3.528,3.480380586,2,3.410772975,Sophia,managua,nicaragua
-22/2/2017,Bugatti Chiron,black,silver,2.1315,2.101920488,2,2.059882078,Heloisa,managua,nicaragua
-13/2/2017,Ferrari Pininfarina Sergio,black,red,2.205,2.175179296,2,2.13167571,Laura,managua,nicaragua
-2/2/2017,Koenigsegg CCXR Trevita,black,white,3.4272,3.390397721,3,3.288685789,Luisa,managua,nicaragua
-6/2/2017,Lamborghini Veneno Roadster,red,white,3.37365,3.340915993,3,3.240688513,Heloisa,managua,nicaragua
-16/2/2017,McLaren P1 LM,brown,white,2.77389,2.732447215,3,2.650473799,Miguel,toronto,canada
-4/2/2017,Bugatti La Voiture Noire,white,red,14.01939,13.89630516,0,13.89630516,Lorenzo,toronto,canada
-1/2/2017,Lamborghini Veneno Roadster,brown,silver,3.472875,3.435284158,3,3.332225634,Davi,toronto,canada
-11/2/2017,Koenigsegg CCXR Trevita,white,white,3.495744,3.450641649,1,3.416135232,Pedro,toronto,canada
-10/2/2017,McLaren P1 LM,red,gold,2.855475,2.830090288,3,2.745187579,Theo,toronto,canada
-23/2/2017,Lamborghini Veneno Roadster,white,blue,3.37365,3.343562283,0,3.343562283,Samuel,toronto,canada
-18/2/2017,McLaren P1 LM,black,silver,2.7195,2.683407654,0,2.683407654,Bernardo,toronto,canada
-13/2/2017,Koenigsegg CCXR Trevita,red,white,3.59856,3.555125321,3,3.448471561,Bernardo,toronto,canada
-18/2/2017,Bugatti La Voiture Noire,black,blue,13.7445,13.62191697,3,13.21325947,Lorenzo,toronto,canada
-23/2/2017,Rolls-Royce Sweptail,black,red,9.408,9.326310461,2,9.139784252,Matheus,toronto,canada
-16/2/2017,Bugatti Chiron,red,white,2.17413,2.150980604,0,2.150980604,Miguel,toronto,canada
-7/2/2017,Rolls-Royce Sweptail,black,gold,9.408,9.304969283,0,9.304969283,Arthur,toronto,canada
-12/2/2017,Bugatti Veyron by Mansory Vivere,brown,blue,2.62395,2.597413292,1,2.571439159,Joaquim,lisboa,portugal
-21/2/2017,Koenigsegg CCXR Trevita,red,black,3.528,3.479343609,1,3.444550172,Isaac,lisboa,portugal
-4/2/2017,McLaren P1 LM,black,black,2.59,2.563214862,0,2.563214862,Isaac,lisboa,portugal
-13/2/2017,Rolls-Royce Sweptail,brown,red,9.8784,9.761983139,3,9.469123645,Isaac,lisboa,portugal
-11/2/2017,Lamborghini Veneno Roadster,red,gold,3.472875,3.42882594,0,3.42882594,Isaac,lisboa,portugal
-5/2/2017,Lamborghini Veneno Roadster,red,blue,3.472875,3.420681277,3,3.318060839,Joaquim,lisboa,portugal
-8/2/2017,Bugatti La Voiture Noire,red,gold,14.431725,14.22375767,2,13.93928252,Joaquim,lisboa,portugal
-8/2/2017,Bugatti Chiron,brown,gold,2.238075,2.20439281,3,2.138261025,Rafael,lisboa,portugal
-14/2/2017,Rolls-Royce Sweptail,black,silver,9.408,9.313971159,1,9.220831447,Joaquim,lisboa,portugal
-18/2/2017,Bugatti La Voiture Noire,red,blue,14.431725,14.24888349,0,14.24888349,Rafael,lisboa,portugal
-18/2/2017,Bugatti La Voiture Noire,black,white,13.3518,13.23202026,2,12.96737985,Nicolas,lisboa,portugal
-7/2/2017,Ferrari Pininfarina Sergio,white,gold,2.2491,2.22549913,2,2.180989147,Isaac,lisboa,portugal
-3/2/2017,McLaren P1 LM,white,black,2.6418,2.606269042,3,2.528080971,Isaac,lisboa,portugal
-2/2/2017,W Motors Lykan Hypersport,white,black,2.4276,2.405537389,0,2.405537389,Isaac,lisboa,portugal
-23/2/2017,Lamborghini Veneno Roadster,red,silver,3.472875,3.429758594,0,3.429758594,Rafael,lisboa,portugal
-2/2/2017,Aston Martin Valkyrie,brown,white,2.39904,2.375210803,1,2.351458695,Soraia,riad,Saudi Arabia
-23/2/2017,Bugatti Chiron,brown,silver,2.238075,2.205687674,2,2.161573921,Jamile,riad,Saudi Arabia
-1/2/2017,W Motors Lykan Hypersport,red,gold,2.62395,2.600047041,0,2.600047041,Jamile,riad,Saudi Arabia
-6/2/2017,Koenigsegg CCXR Trevita,white,gold,3.59856,3.560416329,0,3.560416329,Jamile,riad,Saudi Arabia
-21/2/2017,Ferrari Pininfarina Sergio,brown,blue,2.31525,2.292759662,1,2.269832065,Jamile,riad,Saudi Arabia
-4/2/2017,Aston Martin Valkyrie,red,white,2.39904,2.367540553,0,2.367540553,Fatima,riad,Saudi Arabia
-18/2/2017,W Motors Lykan Hypersport,black,white,2.4276,2.397851744,1,2.373873227,Isa,riad,Saudi Arabia
-8/2/2017,Aston Martin Valkyrie,white,red,2.39904,2.366927582,2,2.319589031,Fatima,riad,Saudi Arabia
-23/2/2017,W Motors Lykan Hypersport,red,gold,2.62395,2.594212293,1,2.56827017,Fatima,riad,Saudi Arabia
-6/2/2017,Lamborghini Veneno Roadster,brown,red,3.472875,3.430596144,2,3.361984221,Fatima,riad,Saudi Arabia
-9/2/2017,Ferrari Pininfarina Sergio,white,blue,2.2491,2.227639971,1,2.205363572,Fatima,riad,Saudi Arabia
-8/2/2017,Koenigsegg CCXR Trevita,white,black,3.4272,3.39578113,2,3.327865507,Fatima,riad,Saudi Arabia
-9/2/2017,McLaren P1 LM,brown,red,2.855475,2.830267704,2,2.77366235,Jamile,riad,Saudi Arabia
-2/2/2017,Aston Martin Valkyrie,brown,silver,2.4696,2.447357749,3,2.373937016,Aisha,riad,Saudi Arabia
-21/2/2017,Aston Martin Valkyrie,brown,silver,2.4696,2.441131973,2,2.392309334,Iasmin,riad,Saudi Arabia
-23/2/2017,Aston Martin Valkyrie,brown,silver,2.4696,2.446489201,0,2.446489201,Nadia,riad,Saudi Arabia
-12/2/2017,Ferrari Pininfarina Sergio,brown,blue,2.31525,2.286677924,3,2.218077587,Nadia,riad,Saudi Arabia
-2/2/2017,Bugatti Veyron by Mansory Vivere,red,white,2.54898,2.517764864,2,2.467409567,Jamile,riad,Saudi Arabia
-16/2/2017,Bugatti La Voiture Noire,white,red,14.01939,13.85313811,3,13.43754397,Nadia,riad,Saudi Arabia
-5/2/2017,Koenigsegg CCXR Trevita,red,black,3.528,3.479967517,0,3.479967517,Iasmin,riad,Saudi Arabia
-11/3/2017,W Motors Lykan Hypersport,black,white,2.4276,2.391210406,0,2.391210406,Luisa,managua,nicaragua
-15/3/2017,Bugatti Chiron,white,black,2.0706,2.040664444,2,1.999851155,Laura,managua,nicaragua
-21/3/2017,W Motors Lykan Hypersport,red,gold,2.62395,2.590484848,0,2.590484848,Manuela,managua,nicaragua
-13/3/2017,W Motors Lykan Hypersport,red,silver,2.62395,2.599999156,3,2.521999182,Alice,managua,nicaragua
-1/3/2017,McLaren P1 LM,black,blue,2.7195,2.694111502,2,2.640229272,Manuela,managua,nicaragua
-18/3/2017,Bugatti La Voiture Noire,black,blue,13.7445,13.59056415,2,13.31875286,Luisa,managua,nicaragua
-12/3/2017,Bugatti Chiron,black,white,2.0706,2.045248345,1,2.024795861,Luisa,managua,nicaragua
-8/3/2017,W Motors Lykan Hypersport,black,white,2.4276,2.403375751,2,2.355308236,Heloisa,managua,nicaragua
-20/3/2017,McLaren P1 LM,red,red,2.855475,2.821965419,1,2.793745765,Laura,managua,nicaragua
-22/3/2017,Bugatti Chiron,white,blue,2.17413,2.153962755,3,2.089343872,Helena,managua,nicaragua
-5/3/2017,Bugatti La Voiture Noire,brown,silver,14.431725,14.24922931,1,14.10673702,Laura,managua,nicaragua
-13/3/2017,McLaren P1 LM,white,blue,2.77389,2.734884579,2,2.680186888,Manuela,managua,nicaragua
-11/3/2017,Lamborghini Veneno Roadster,brown,gold,3.472875,3.441526205,1,3.407110943,Giovanna,new york,united state
-22/3/2017,Bugatti Veyron by Mansory Vivere,black,silver,2.499,2.467473773,1,2.442799035,Liz,new york,united state
-2/3/2017,Lamborghini Veneno Roadster,red,red,3.472875,3.434757853,3,3.331715117,Matt,new york,united state
-7/3/2017,Rolls-Royce Sweptail,brown,silver,9.8784,9.726066538,1,9.628805872,Matt,new york,united state
-1/3/2017,W Motors Lykan Hypersport,brown,gold,2.62395,2.591260595,0,2.591260595,Livia,new york,united state
-2/3/2017,Bugatti La Voiture Noire,white,red,14.01939,13.82642273,1,13.6881585,Liz,new york,united state
-3/3/2017,Lamborghini Veneno Roadster,red,white,3.37365,3.334485788,0,3.334485788,Matt,new york,united state
-4/3/2017,Bugatti Chiron,white,silver,2.17413,2.150056672,1,2.128556105,Maria Luisa,new york,united state
-8/3/2017,McLaren P1 LM,brown,black,2.7195,2.682166811,1,2.655345143,Lorena,new york,united state
-2/3/2017,Bugatti La Voiture Noire,black,black,13.09,12.93412839,0,12.93412839,Liz,new york,united state
-5/3/2017,W Motors Lykan Hypersport,black,gold,2.499,2.475216901,3,2.400960394,Matt,new york,united state
-19/3/2017,Bugatti Veyron by Mansory Vivere,brown,gold,2.62395,2.594130637,3,2.516306718,Liz,new york,united state
-13/3/2017,Koenigsegg CCXR Trevita,white,silver,3.59856,3.56365272,1,3.528016192,Maria Luisa,new york,united state
-15/3/2017,W Motors Lykan Hypersport,brown,blue,2.62395,2.582143025,1,2.556321595,Elissa,new york,united state
-11/3/2017,McLaren P1 LM,brown,gold,2.855475,2.821004688,3,2.736374547,,new york,united state
-4/3/2017,Lamborghini Veneno Roadster,red,white,3.37365,3.337388984,0,3.337388984,Liz,new york,united state
-15/3/2017,McLaren P1 LM,red,silver,2.855475,2.82104687,0,2.82104687,Mariana,new york,united state
-2/3/2017,Bugatti Chiron,black,silver,2.1315,2.111308937,1,2.090195847,Matt,new york,united state
-3/3/2017,Rolls-Royce Sweptail,brown,red,9.8784,9.775157324,0,9.775157324,Lorena,new york,united state
-20/3/2017,McLaren P1 LM,red,white,2.77389,2.735699058,3,2.653628086,Julia,new york,united state
-21/3/2017,Rolls-Royce Sweptail,white,black,9.1392,9.005078342,0,9.005078342,Lorena,new york,united state
-15/3/2017,Koenigsegg CCXR Trevita,white,silver,3.59856,3.547466033,0,3.547466033,Matt,new york,united state
-15/3/2017,,red,gold,,,1,3.399168605,Maria Luisa,new york,united state
-8/3/2017,Lamborghini Veneno Roadster,white,gold,3.37365,3.329172161,2,3.262588718,Miguel,toronto,canada
-16/3/2017,Bugatti La Voiture Noire,white,red,14.01939,13.83502683,0,13.83502683,Benicio,toronto,canada
-2/3/2017,McLaren P1 LM,white,black,2.6418,2.609960073,0,2.609960073,Theo,toronto,canada
-19/3/2017,Bugatti Chiron,black,silver,2.1315,2.103041667,1,2.08201125,Matheus,toronto,canada
-12/3/2017,Bugatti La Voiture Noire,brown,gold,14.431725,14.2086647,2,13.92449141,Gael,toronto,canada
-9/3/2017,Rolls-Royce Sweptail,black,white,9.1392,8.999086567,2,8.819104835,Benjamin,toronto,canada
-4/3/2017,Rolls-Royce Sweptail,red,red,9.8784,9.771435038,1,9.673720687,Lucas,toronto,canada
-4/3/2017,Bugatti Chiron,black,blue,2.1315,2.109032281,0,2.109032281,Lorenzo,toronto,canada
-17/3/2017,Bugatti Chiron,white,red,2.17413,2.148560547,2,2.105589336,Matheus,toronto,canada
-2/3/2017,Ferrari Pininfarina Sergio,white,silver,2.2491,2.226732881,1,2.204465552,Gabriel,toronto,canada
-10/3/2017,Ferrari Pininfarina Sergio,brown,silver,2.31525,2.292666474,3,2.22388648,Gael,toronto,canada
-7/3/2017,Bugatti La Voiture Noire,white,blue,14.01939,13.88212099,0,13.88212099,Arthur,toronto,canada
-19/3/2017,Bugatti Veyron by Mansory Vivere,white,blue,2.54898,2.513265894,2,2.463000576,Davi,toronto,canada
-19/3/2017,Koenigsegg CCXR Trevita,black,white,3.4272,3.376621842,1,3.342855624,Davi,toronto,canada
-19/3/2017,Ferrari Pininfarina Sergio,black,blue,2.205,2.181464788,3,2.116020845,Nicolas,lisboa,portugal
-15/3/2017,Bugatti La Voiture Noire,black,white,13.3518,13.15865643,1,13.02706987,Henrique,lisboa,portugal
-1/3/2017,Aston Martin Valkyrie,white,red,2.39904,2.373442113,1,2.349707692,Isaac,lisboa,portugal
-2/3/2017,W Motors Lykan Hypersport,white,blue,2.54898,2.521136274,3,2.445502186,Isaac,lisboa,portugal
-3/3/2017,Lamborghini Veneno Roadster,brown,gold,3.472875,3.430521075,3,3.327605443,Henrique,lisboa,portugal
-1/3/2017,Bugatti Chiron,black,red,2.1315,2.111744563,3,2.048392226,Joaquim,lisboa,portugal
-3/3/2017,Lamborghini Veneno Roadster,white,white,3.27726,3.236849055,2,3.172112074,Joaquim,lisboa,portugal
-18/3/2017,Bugatti Veyron by Mansory Vivere,brown,blue,2.62395,2.593953377,2,2.542074309,Fatima,riad,Saudi Arabia
-12/3/2017,Ferrari Pininfarina Sergio,red,red,2.31525,2.282589312,3,2.214111633,Laila,riad,Saudi Arabia
-12/3/2017,Lamborghini Veneno Roadster,brown,white,3.37365,3.338124192,3,3.237980466,Fatima,riad,Saudi Arabia
-5/3/2017,Ferrari Pininfarina Sergio,red,white,2.2491,2.214886628,1,2.192737762,Isa,riad,Saudi Arabia
-6/3/2017,Bugatti Chiron,brown,gold,2.238075,2.203028134,3,2.13693729,Nadia,riad,Saudi Arabia
-14/3/2017,Aston Martin Valkyrie,red,black,2.352,2.330576847,3,2.260659542,Laila,riad,Saudi Arabia
-1/3/2017,Rolls-Royce Sweptail,brown,red,9.8784,9.746714028,3,9.454312607,Laila,riad,Saudi Arabia
-7/3/2017,Bugatti Veyron by Mansory Vivere,black,silver,2.499,2.461466514,2,2.412237184,Soraia,riad,Saudi Arabia
-7/4/2017,McLaren P1 LM,black,black,2.59,2.549874384,2,2.498876896,Luisa,managua,nicaragua
-7/4/2017,Bugatti Chiron,red,silver,2.238075,2.211972429,0,2.211972429,Isabella,managua,nicaragua
-13/4/2017,Ferrari Pininfarina Sergio,white,white,2.18484,2.156707252,1,2.135140179,Manuela,managua,nicaragua
-9/4/2017,Bugatti Veyron by Mansory Vivere,brown,red,2.62395,2.585539994,1,2.559684594,Luisa,managua,nicaragua
-1/4/2017,Bugatti La Voiture Noire,white,white,13.618836,13.45937482,3,13.05559358,Heloisa,managua,nicaragua
-,,,,,,,,,,
-14/4/2017,Ferrari Pininfarina Sergio,red,silver,2.31525,2.284832137,3,2.216287173,Manuela,managua,nicaragua
-24/4/2017,Rolls-Royce Sweptail,brown,blue,9.8784,9.736132433,2,9.541409785,Manuela,managua,nicaragua
-10/4/2017,Aston Martin Valkyrie,white,black,2.2848,2.251948716,2,2.206909741,Alice,managua,nicaragua
-11/4/2017,Bugatti Veyron by Mansory Vivere,red,gold,2.62395,2.59835383,3,2.520403215,Luisa,managua,nicaragua
-24/4/2017,Ferrari Pininfarina Sergio,white,black,2.142,2.109457523,0,2.109457523,Luisa,managua,nicaragua
-13/4/2017,Bugatti Chiron,brown,black,2.1315,2.112219227,1,2.091097035,Helena,managua,nicaragua
-9/4/2017,Lamborghini Veneno Roadster,black,gold,3.3075,3.279329147,0,3.279329147,Heloisa,managua,nicaragua
-5/4/2017,Rolls-Royce Sweptail,red,black,9.408,9.3007443,1,9.207736857,Laura,managua,nicaragua
-21/4/2017,Bugatti Veyron by Mansory Vivere,black,silver,2.499,2.460756061,0,2.460756061,Isabella,managua,nicaragua
-4/4/2017,Bugatti Veyron by Mansory Vivere,brown,white,2.54898,2.520934138,0,2.520934138,Sophia,managua,nicaragua
-7/4/2017,Koenigsegg CCXR Trevita,white,gold,3.59856,3.543079339,3,3.436786959,Alice,managua,nicaragua
-22/4/2017,McLaren P1 LM,red,white,2.77389,2.746725238,0,2.746725238,Helena,managua,nicaragua
-9/4/2017,Bugatti La Voiture Noire,white,black,13.3518,13.15214509,2,12.88910218,Isabella,managua,nicaragua
-18/4/2017,Bugatti Chiron,brown,silver,2.238075,2.21036912,0,2.21036912,Giovanna,new york,united state
-19/4/2017,Rolls-Royce Sweptail,black,black,8.96,8.870973974,1,8.782264235,Liz,new york,united state
-2/4/2017,Bugatti La Voiture Noire,black,gold,13.7445,13.58696156,3,13.17935271,Cecilia,new york,united state
-18/4/2017,Bugatti La Voiture Noire,red,red,14.431725,14.2741806,0,14.2741806,Lorena,new york,united state
-10/4/2017,McLaren P1 LM,white,white,2.694636,2.669352148,0,2.669352148,Giovanna,new york,united state
-3/4/2017,Bugatti La Voiture Noire,brown,black,13.7445,13.61334883,1,13.47721534,Elissa,new york,united state
-22/4/2017,Bugatti Chiron,red,red,2.238075,2.218513843,1,2.196328704,Giovanna,new york,united state
-5/4/2017,Bugatti La Voiture Noire,black,black,13.09,12.95087057,1,12.82136187,Liz,new york,united state
-11/4/2017,Bugatti Veyron by Mansory Vivere,black,blue,2.499,2.459134305,3,2.385360276,Julia,new york,united state
-14/4/2017,Koenigsegg CCXR Trevita,brown,blue,3.7044,3.653448714,3,3.543845253,Mariana,new york,united state
-18/4/2017,Lamborghini Veneno Roadster,black,red,3.3075,3.269413319,2,3.204025052,Matt,new york,united state
-16/4/2017,Bugatti Chiron,brown,silver,2.238075,2.216711862,2,2.172377624,Elissa,new york,united state
-20/4/2017,McLaren P1 LM,black,black,2.59,2.556461638,1,2.530897022,Maria Luisa,new york,united state
-13/4/2017,Aston Martin Valkyrie,black,black,2.24,2.206979958,1,2.184910158,Lorena,new york,united state
-11/4/2017,Ferrari Pininfarina Sergio,red,red,2.31525,2.278729368,2,2.23315478,Livia,new york,united state
-1/4/2017,Aston Martin Valkyrie,red,blue,2.4696,2.441417072,2,2.39258873,Liz,new york,united state
-19/4/2017,McLaren P1 LM,red,black,2.7195,2.679733934,3,2.599341916,Liz,new york,united state
-12/4/2017,Lamborghini Veneno Roadster,black,red,3.3075,3.279193642,0,3.279193642,Valentina,new york,united state
-4/4/2017,Ferrari Pininfarina Sergio,white,red,2.2491,2.215475122,1,2.193320371,Livia,new york,united state
-9/4/2017,Bugatti Veyron by Mansory Vivere,red,red,2.62395,2.600438025,1,2.574433645,Livia,new york,united state
-15/4/2017,Lamborghini Veneno Roadster,black,gold,3.3075,3.259090214,0,3.259090214,Mariana,new york,united state
-16/4/2017,Lamborghini Veneno Roadster,white,gold,3.37365,3.336059958,3,3.235978159,Matt,new york,united state
-15/4/2017,Bugatti La Voiture Noire,black,black,13.09,12.95000224,3,12.56150218,Benicio,toronto,canada
-11/4/2017,Aston Martin Valkyrie,white,red,2.39904,2.376754694,0,2.376754694,Benjamin,toronto,canada
-17/4/2017,McLaren P1 LM,red,red,2.855475,2.824863328,3,2.740117428,Bernardo,toronto,canada
-23/4/2017,McLaren P1 LM,white,white,2.694636,2.671682001,1,2.644965181,Lorenzo,toronto,canada
-3/4/2017,Bugatti Chiron,black,gold,2.1315,2.103030238,2,2.060969634,Miguel,toronto,canada
-12/4/2017,Bugatti La Voiture Noire,white,silver,14.01939,13.88231077,1,13.74348766,Theo,toronto,canada
-1/4/2017,W Motors Lykan Hypersport,black,gold,2.499,2.466845938,3,2.39284056,Henrique,lisboa,portugal
-22/4/2017,Ferrari Pininfarina Sergio,brown,black,2.205,2.177378461,3,2.112057107,Isaac,lisboa,portugal
-20/4/2017,Bugatti Chiron,brown,white,2.17413,2.141449686,1,2.120035189,Joaquim,lisboa,portugal
-15/5/2017,Bugatti Chiron,white,white,2.112012,2.091822806,3,2.029068122,Sophia,managua,nicaragua
-18/5/2017,Bugatti Chiron,red,black,2.1315,2.100733867,1,2.079726528,Isabella,managua,nicaragua
-8/5/2017,W Motors Lykan Hypersport,white,gold,2.54898,2.511494349,3,2.436149519,Giovanna,new york,united state
-5/5/2017,Rolls-Royce Sweptail,brown,gold,9.8784,9.792313662,2,9.596467389,Livia,new york,united state
-6/5/2017,Bugatti Veyron by Mansory Vivere,black,blue,2.499,2.473419363,0,2.473419363,Mariana,new york,united state
-5/5/2017,Bugatti Chiron,red,blue,2.238075,2.217396213,0,2.217396213,Gael,toronto,canada
-9/5/2017,Rolls-Royce Sweptail,red,gold,9.8784,9.740968189,3,9.448739143,Miguel,toronto,canada
-10/5/2017,Bugatti Veyron by Mansory Vivere,brown,silver,2.62395,2.585104593,1,2.559253547,Benicio,toronto,canada
-22/5/2017,Koenigsegg CCXR Trevita,brown,black,3.528,3.495792852,3,3.390919066,Benjamin,toronto,canada
-4/5/2017,Koenigsegg CCXR Trevita,brown,gold,3.7044,3.647299008,2,3.574353028,Isaac,lisboa,portugal
-13/5/2017,Rolls-Royce Sweptail,red,red,9.8784,9.77648705,1,9.67872218,Isaac,lisboa,portugal
-5/5/2017,W Motors Lykan Hypersport,red,black,2.499,2.476484127,0,2.476484127,Nicolas,lisboa,portugal
-5/5/2017,Bugatti La Voiture Noire,white,silver,14.01939,13.86319312,1,13.72456119,Henrique,lisboa,portugal
-20/5/2017,Koenigsegg CCXR Trevita,white,white,3.495744,3.447519885,2,3.378569487,Henrique,lisboa,portugal
-21/5/2017,McLaren P1 LM,white,red,2.77389,2.735471138,0,2.735471138,Joaquim,lisboa,portugal
-7/5/2017,Lamborghini Veneno Roadster,red,gold,3.472875,3.418817498,1,3.384629323,Isaac,lisboa,portugal
-17/5/2017,Rolls-Royce Sweptail,red,black,9.408,9.259807595,2,9.074611443,Isaac,lisboa,portugal
-13/5/2017,Ferrari Pininfarina Sergio,black,red,2.205,2.182440758,1,2.16061635,Nicolas,lisboa,portugal
-11/5/2017,Bugatti La Voiture Noire,white,black,13.3518,13.20943769,0,13.20943769,Nicolas,lisboa,portugal
-7/5/2017,Ferrari Pininfarina Sergio,white,gold,2.2491,2.226334155,2,2.181807472,Rafael,lisboa,portugal
-1/5/2017,Lamborghini Veneno Roadster,red,silver,3.472875,3.430339247,1,3.396035855,Joaquim,lisboa,portugal
-18/5/2017,McLaren P1 LM,black,gold,2.7195,2.689258362,3,2.608580611,Nicolas,lisboa,portugal
-5/5/2017,Rolls-Royce Sweptail,red,white,9.59616,9.465430488,3,9.181467574,Rafael,lisboa,portugal
-13/5/2017,Ferrari Pininfarina Sergio,brown,blue,2.31525,2.287741752,3,2.2191095,Hana,tokio,japan
-9/5/2017,Lamborghini Veneno Roadster,red,white,3.37365,3.341235421,1,3.307823067,Harumi,tokio,japan
-16/5/2017,McLaren P1 LM,black,blue,2.7195,2.691537617,3,2.610791488,Hana,tokio,japan
-7/5/2017,Aston Martin Valkyrie,white,blue,2.39904,2.3756327,2,2.328120046,Harumi,tokio,japan
-2/5/2017,McLaren P1 LM,black,silver,2.7195,2.690606581,0,2.690606581,Hinata,tokio,japan
-15/5/2017,Bugatti La Voiture Noire,white,blue,14.01939,13.79936351,1,13.66136987,Hana,tokio,japan
-5/5/2017,Aston Martin Valkyrie,white,blue,2.39904,2.376667628,0,2.376667628,Hinata,tokio,japan
-15/5/2017,McLaren P1 LM,brown,red,2.855475,2.818741804,0,2.818741804,Fatima,riad,Saudi Arabia
-7/5/2017,McLaren P1 LM,black,silver,2.7195,2.691797163,0,2.691797163,Isa,riad,Saudi Arabia
-16/5/2017,Bugatti Chiron,black,red,2.1315,2.107154556,0,2.107154556,Isa,riad,Saudi Arabia
-6/5/2017,Koenigsegg CCXR Trevita,brown,black,3.528,3.488883483,1,3.453994649,Laila,riad,Saudi Arabia
-18/5/2017,Lamborghini Veneno Roadster,white,silver,3.37365,3.333095787,3,3.233102914,Isa,riad,Saudi Arabia
-4/5/2017,McLaren P1 LM,black,silver,2.7195,2.677553248,3,2.59722665,Fatima,riad,Saudi Arabia
-21/5/2017,Bugatti Veyron by Mansory Vivere,red,white,2.54898,2.525633699,0,2.525633699,Aisha,riad,Saudi Arabia
-14/5/2017,Rolls-Royce Sweptail,red,silver,9.8784,9.792374205,3,9.498602979,Aisha,riad,Saudi Arabia
-3/5/2017,Bugatti Chiron,black,gold,2.1315,2.106478468,0,2.106478468,Aisha,riad,Saudi Arabia
-20/5/2017,Koenigsegg CCXR Trevita,red,white,3.59856,3.546587474,3,3.440189849,Iasmin,riad,Saudi Arabia
-20/5/2017,Lamborghini Veneno Roadster,black,black,3.15,3.100636947,3,3.007617839,Soraia,riad,Saudi Arabia
-5/5/2017,Bugatti Veyron by Mansory Vivere,white,blue,2.54898,2.520978337,0,2.520978337,Soraia,riad,Saudi Arabia
-14/6/2017,Aston Martin Valkyrie,red,gold,2.4696,2.439893914,3,2.366697096,Liz,new york,united state
-6/6/2017,Bugatti La Voiture Noire,white,black,13.3518,13.16984568,2,12.90644877,Elissa,new york,united state
-9/6/2017,Lamborghini Veneno Roadster,red,white,3.37365,3.330000515,0,3.330000515,Maria Luisa,new york,united state
-3/6/2017,McLaren P1 LM,brown,silver,2.855475,2.810033803,0,2.810033803,Liz,new york,united state
-7/6/2017,Lamborghini Veneno Roadster,brown,silver,3.472875,3.42701931,3,3.324208731,Maria Luisa,new york,united state
-,,,,,,,,,,
-3/6/2017,Bugatti Chiron,brown,blue,2.238075,2.206726027,2,2.162591506,Giovanna,new york,united state
-18/6/2017,McLaren P1 LM,brown,red,2.855475,2.8232953,1,2.795062347,Cecilia,new york,united state
-2/6/2017,Koenigsegg CCXR Trevita,brown,white,3.59856,3.560464861,0,3.560464861,Giovanna,new york,united state
-18/6/2017,Lamborghini Veneno Roadster,black,black,3.15,3.099936998,0,3.099936998,Maria Luisa,new york,united state
-16/6/2017,Bugatti Veyron by Mansory Vivere,brown,gold,2.62395,2.60062718,0,2.60062718,Mariana,new york,united state
-12/6/2017,Ferrari Pininfarina Sergio,red,blue,2.31525,2.294275026,2,2.248389525,Mariana,new york,united state
-12/6/2017,Bugatti Chiron,red,white,2.17413,2.154107535,3,2.089484309,Elissa,new york,united state
-17/6/2017,McLaren P1 LM,white,blue,2.77389,2.746105407,0,2.746105407,Antonella,new york,united state
-18/6/2017,Bugatti Chiron,brown,black,2.1315,2.111397333,0,2.111397333,Lorena,new york,united state
-21/6/2017,Koenigsegg CCXR Trevita,white,black,3.4272,3.396091185,2,3.328169362,Matt,new york,united state
-8/6/2017,W Motors Lykan Hypersport,red,silver,2.62395,2.593266372,0,2.593266372,Mariana,new york,united state
-11/6/2017,W Motors Lykan Hypersport,brown,white,2.54898,2.522905656,0,2.522905656,Valentina,new york,united state
-13/6/2017,Rolls-Royce Sweptail,red,red,9.8784,9.731466702,0,9.731466702,Matt,new york,united state
-1/6/2017,McLaren P1 LM,white,red,2.77389,2.740534359,0,2.740534359,Elissa,new york,united state
-14/6/2017,Aston Martin Valkyrie,red,gold,2.4696,2.430711569,0,2.430711569,Valentina,new york,united state
-21/6/2017,McLaren P1 LM,black,gold,2.7195,2.689161085,1,2.662269474,Matt,new york,united state
-3/6/2017,Rolls-Royce Sweptail,brown,white,9.59616,9.508234112,1,9.413151771,Livia,new york,united state
-22/6/2017,McLaren P1 LM,white,red,2.77389,2.741904634,3,2.659647495,Gael,toronto,canada
-6/6/2017,Bugatti La Voiture Noire,brown,blue,14.431725,14.27113938,1,14.12842799,Lorenzo,toronto,canada
-14/6/2017,Aston Martin Valkyrie,brown,white,2.39904,2.368546307,0,2.368546307,Bernardo,toronto,canada
-8/6/2017,Lamborghini Veneno Roadster,brown,white,3.37365,3.332866554,2,3.266209223,Theo,toronto,canada
-3/6/2017,Bugatti Veyron by Mansory Vivere,red,red,2.62395,2.588527653,3,2.510871823,Matheus,toronto,canada
-21/6/2017,Rolls-Royce Sweptail,brown,silver,9.8784,9.754182725,3,9.461557243,Theo,toronto,canada
-8/6/2017,Ferrari Pininfarina Sergio,red,gold,2.31525,2.285020332,2,2.239319925,Heitor,toronto,canada
-23/6/2017,Koenigsegg CCXR Trevita,red,silver,3.7044,3.663921412,2,3.590642984,Arthur,toronto,canada
-2/6/2017,Aston Martin Valkyrie,black,gold,2.352,2.323726559,2,2.277252027,Pedro,toronto,canada
-2/6/2017,Bugatti Chiron,black,white,2.0706,2.04351451,3,1.982209075,Arthur,toronto,canada
-5/6/2017,Bugatti La Voiture Noire,black,red,13.7445,13.56125749,1,13.42564491,Pedro,toronto,canada
-21/6/2017,Bugatti La Voiture Noire,white,black,13.3518,13.14551859,0,13.14551859,Lorenzo,toronto,canada
-21/6/2017,Lamborghini Veneno Roadster,white,gold,3.37365,3.325016869,2,3.258516531,Arthur,toronto,canada
-20/6/2017,Ferrari Pininfarina Sergio,black,silver,2.205,2.181557132,0,2.181557132,Arthur,toronto,canada
-9/6/2017,Rolls-Royce Sweptail,red,black,9.408,9.299790291,3,9.020796583,Miguel,toronto,canada
-7/6/2017,Bugatti La Voiture Noire,black,red,13.7445,13.58199676,2,13.31035682,Benicio,toronto,canada
-11/6/2017,Rolls-Royce Sweptail,brown,black,9.408,9.258827151,1,9.166238879,Benicio,toronto,canada
-24/6/2017,McLaren P1 LM,white,red,2.77389,2.740332343,1,2.71292902,Arthur,toronto,canada
-20/6/2017,Aston Martin Valkyrie,white,gold,2.39904,2.376974581,1,2.353204836,Theo,toronto,canada
-23/6/2017,Bugatti La Voiture Noire,red,silver,14.431725,14.24793973,3,13.82050154,Rafael,lisboa,portugal
-8/6/2017,Rolls-Royce Sweptail,black,black,8.96,8.87892336,2,8.701344893,Joaquim,lisboa,portugal
-15/6/2017,Lamborghini Veneno Roadster,black,blue,3.3075,3.264157105,0,3.264157105,Nicolas,lisboa,portugal
-20/6/2017,Koenigsegg CCXR Trevita,black,gold,3.528,3.480998726,2,3.411378751,Rafael,lisboa,portugal
-21/6/2017,Aston Martin Valkyrie,white,white,2.330496,2.296608123,3,2.22770988,Rafael,lisboa,portugal
-6/6/2017,Lamborghini Veneno Roadster,brown,black,3.3075,3.266255861,2,3.200930744,Saori,tokio,japan
-4/6/2017,Lamborghini Veneno Roadster,black,blue,3.3075,3.275096142,2,3.209594219,Sakura,tokio,japan
-11/6/2017,Lamborghini Veneno Roadster,white,white,3.27726,3.233273176,1,3.200940444,Yumi,tokio,japan
-20/6/2017,Bugatti La Voiture Noire,brown,white,14.01939,13.82750809,0,13.82750809,Hana,tokio,japan
-5/6/2017,Aston Martin Valkyrie,brown,black,2.352,2.325331915,2,2.278825277,Akemi,tokio,japan
-17/6/2017,Bugatti La Voiture Noire,brown,gold,14.431725,14.24215112,1,14.09972961,Mahina,tokio,japan
-24/6/2017,McLaren P1 LM,red,black,2.7195,2.678065594,2,2.624504282,Hinata,tokio,japan
-12/6/2017,W Motors Lykan Hypersport,black,black,2.38,2.355078449,2,2.30797688,Fatima,riad,Saudi Arabia
-17/6/2017,Ferrari Pininfarina Sergio,red,silver,2.31525,2.291605217,2,2.245773113,Laila,riad,Saudi Arabia
-11/6/2017,Koenigsegg CCXR Trevita,white,red,3.59856,3.558369781,0,3.558369781,Iasmin,riad,Saudi Arabia
-23/6/2017,Bugatti La Voiture Noire,black,red,13.7445,13.62371805,1,13.48748087,Nadia,riad,Saudi Arabia
-4/6/2017,Bugatti Veyron by Mansory Vivere,brown,gold,2.62395,2.598840407,0,2.598840407,Isa,riad,Saudi Arabia
-24/7/2017,Bugatti Veyron by Mansory Vivere,brown,red,2.62395,2.583225694,2,2.53156118,Isabella,managua,nicaragua
-12/7/2017,W Motors Lykan Hypersport,white,gold,2.54898,2.523043423,2,2.472582555,Alice,managua,nicaragua
-10/7/2017,W Motors Lykan Hypersport,red,white,2.54898,2.51594341,1,2.490783976,Alice,managua,nicaragua
-13/7/2017,Bugatti Chiron,white,white,2.112012,2.086735972,0,2.086735972,Helena,managua,nicaragua
-1/7/2017,Bugatti La Voiture Noire,brown,red,14.431725,14.24495266,0,14.24495266,Heloisa,managua,nicaragua
-14/7/2017,Bugatti La Voiture Noire,brown,red,14.431725,14.30046105,0,14.30046105,Manuela,managua,nicaragua
-2/7/2017,Koenigsegg CCXR Trevita,white,red,3.59856,3.561708977,1,3.526091887,Sophia,managua,nicaragua
-1/7/2017,Koenigsegg CCXR Trevita,brown,red,3.7044,3.648562385,3,3.539105514,Manuela,managua,nicaragua
-11/7/2017,W Motors Lykan Hypersport,white,silver,2.54898,2.514764666,0,2.514764666,Sophia,managua,nicaragua
-20/7/2017,Lamborghini Veneno Roadster,brown,black,3.3075,3.275590241,0,3.275590241,Heloisa,managua,nicaragua
-21/7/2017,Aston Martin Valkyrie,white,white,2.330496,2.30018045,1,2.277178646,Alice,managua,nicaragua
-12/7/2017,Ferrari Pininfarina Sergio,black,blue,2.205,2.186189415,1,2.164327521,Cecilia,new york,united state
-22/7/2017,Bugatti La Voiture Noire,red,silver,14.431725,14.28011488,1,14.13731373,Mariana,new york,united state
-5/7/2017,W Motors Lykan Hypersport,black,blue,2.499,2.462481498,0,2.462481498,Giovanna,new york,united state
-14/7/2017,Aston Martin Valkyrie,red,red,2.4696,2.439013048,1,2.414622918,Maria Luisa,new york,united state
-10/7/2017,Lamborghini Veneno Roadster,red,red,3.472875,3.428832859,2,3.360256202,Mariana,new york,united state
-17/7/2017,Bugatti Chiron,black,silver,2.1315,2.097882248,2,2.055924603,Julia,new york,united state
-18/7/2017,Ferrari Pininfarina Sergio,black,silver,2.205,2.182196644,0,2.182196644,Julia,new york,united state
-6/7/2017,Bugatti Chiron,black,black,2.03,2.007464682,2,1.967315388,Livia,new york,united state
-14/7/2017,Bugatti La Voiture Noire,red,gold,14.431725,14.2706159,0,14.2706159,Mariana,new york,united state
-2/7/2017,Bugatti La Voiture Noire,brown,red,14.431725,14.30457613,0,14.30457613,Julia,new york,united state
-17/7/2017,Bugatti La Voiture Noire,white,gold,14.01939,13.80506982,2,13.52896842,Liz,new york,united state
-23/7/2017,McLaren P1 LM,brown,blue,2.855475,2.813636297,1,2.785499934,Samuel,toronto,canada
-3/7/2017,Lamborghini Veneno Roadster,brown,silver,3.472875,3.422182815,0,3.422182815,Benjamin,toronto,canada
-5/7/2017,W Motors Lykan Hypersport,white,gold,2.54898,2.515229675,3,2.439772785,Nicolas,lisboa,portugal
-7/7/2017,Lamborghini Veneno Roadster,black,red,3.3075,3.262518561,1,3.229893375,Rafael,lisboa,portugal
-22/7/2017,Aston Martin Valkyrie,red,blue,2.4696,2.438677638,3,2.365517309,Nicolas,lisboa,portugal
-20/7/2017,Bugatti La Voiture Noire,brown,blue,14.431725,14.26414928,3,13.8362248,Isaac,lisboa,portugal
-23/7/2017,Bugatti La Voiture Noire,white,red,14.01939,13.83406151,0,13.83406151,Nicolas,lisboa,portugal
-10/7/2017,Ferrari Pininfarina Sergio,black,gold,2.205,2.176086439,0,2.176086439,Henrique,lisboa,portugal
-4/7/2017,Rolls-Royce Sweptail,black,black,8.96,8.876115413,1,8.787354259,Nicolas,lisboa,portugal
-17/7/2017,Aston Martin Valkyrie,red,gold,2.4696,2.445958762,1,2.421499175,Isaac,lisboa,portugal
-16/7/2017,Bugatti Chiron,white,white,2.112012,2.085566199,0,2.085566199,Henrique,lisboa,portugal
-12/7/2017,Rolls-Royce Sweptail,white,silver,9.59616,9.470326944,3,9.186217136,Nicolas,lisboa,portugal
-1/7/2017,Bugatti La Voiture Noire,brown,white,14.01939,13.83444671,3,13.41941331,Joaquim,lisboa,portugal
-23/7/2017,Bugatti Chiron,brown,black,2.1315,2.109037235,1,2.087946863,Nicolas,lisboa,portugal
-15/7/2017,Bugatti La Voiture Noire,red,gold,14.431725,14.28153356,3,13.85308756,Isaac,lisboa,portugal
-3/7/2017,Bugatti La Voiture Noire,red,red,14.431725,14.29317348,2,14.00731002,Rafael,lisboa,portugal
-7/7/2017,Ferrari Pininfarina Sergio,black,blue,2.205,2.183991581,2,2.14031175,Joaquim,lisboa,portugal
-24/7/2017,McLaren P1 LM,black,white,2.6418,2.619333063,1,2.593139732,Rafael,lisboa,portugal
-24/7/2017,W Motors Lykan Hypersport,white,white,2.476152,2.451378876,0,2.451378876,Hinata,tokio,japan
-8/7/2017,Aston Martin Valkyrie,brown,gold,2.4696,2.438310069,3,2.365160767,Sakura,tokio,japan
-7/7/2017,Bugatti Veyron by Mansory Vivere,brown,silver,2.62395,2.597881236,1,2.571902424,Naomi,tokio,japan
-19/7/2017,Bugatti Veyron by Mansory Vivere,brown,red,2.62395,2.587985388,1,2.562105534,Akemi,tokio,japan
-11/7/2017,McLaren P1 LM,red,black,2.7195,2.691057643,3,2.610325914,Saori,tokio,japan
-15/7/2017,Aston Martin Valkyrie,red,silver,2.4696,2.442475296,2,2.39362579,Sakura,tokio,japan
-23/7/2017,Koenigsegg CCXR Trevita,black,red,3.528,3.474690841,0,3.474690841,Sayuri,tokio,japan
-17/7/2017,Bugatti Veyron by Mansory Vivere,white,gold,2.54898,2.509903209,1,2.484804177,Jamile,riad,Saudi Arabia
-9/7/2017,W Motors Lykan Hypersport,white,white,2.476152,2.439682209,1,2.415285387,Fatima,riad,Saudi Arabia
-14/7/2017,Aston Martin Valkyrie,white,gold,2.39904,2.360859553,3,2.290033766,Soraia,riad,Saudi Arabia
-8/7/2017,Bugatti La Voiture Noire,black,black,13.09,12.9365824,1,12.80721658,Nadia,riad,Saudi Arabia
-22/7/2017,Lamborghini Veneno Roadster,red,black,3.3075,3.27397367,0,3.27397367,Laila,riad,Saudi Arabia
-8/7/2017,Rolls-Royce Sweptail,brown,gold,9.8784,9.755375894,2,9.560268376,Nadia,riad,Saudi Arabia
-14/7/2017,Bugatti La Voiture Noire,black,white,13.3518,13.16192899,0,13.16192899,Aisha,riad,Saudi Arabia
-4/7/2017,Aston Martin Valkyrie,white,red,2.39904,2.377450451,0,2.377450451,Jamile,riad,Saudi Arabia
-13/7/2017,Bugatti La Voiture Noire,white,blue,14.01939,13.82936934,3,13.41448826,Nadia,riad,Saudi Arabia
-20/7/2017,Ferrari Pininfarina Sergio,red,red,2.31525,2.283485565,3,2.214980998,Soraia,riad,Saudi Arabia
-10/7/2017,Koenigsegg CCXR Trevita,red,silver,3.7044,3.662480752,3,3.552606329,Iasmin,riad,Saudi Arabia
-5/7/2017,Lamborghini Veneno Roadster,brown,gold,3.472875,3.429266293,0,3.429266293,Aisha,riad,Saudi Arabia
-13/7/2017,Bugatti La Voiture Noire,black,blue,13.7445,13.54392597,3,13.13760819,Laila,riad,Saudi Arabia
-3/7/2017,Lamborghini Veneno Roadster,white,blue,3.37365,3.338958049,3,3.238789307,Iasmin,riad,Saudi Arabia
-9/7/2017,Bugatti La Voiture Noire,red,silver,14.431725,14.21292419,2,13.92866571,Isa,riad,Saudi Arabia
-1/8/2017,Bugatti La Voiture Noire,brown,blue,14.431725,14.28489398,1,14.14204504,Helena,managua,nicaragua
-4/8/2017,Bugatti La Voiture Noire,white,silver,14.01939,13.82936655,3,13.41448555,Laura,managua,nicaragua
-20/8/2017,Bugatti Chiron,brown,blue,2.238075,2.204898519,2,2.160800549,Alice,managua,nicaragua
-14/8/2017,McLaren P1 LM,white,white,2.694636,2.651704314,1,2.625187271,Lorena,new york,united state
-7/8/2017,Bugatti Veyron by Mansory Vivere,red,black,2.499,2.472149659,2,2.422706666,Matt,new york,united state
-6/8/2017,W Motors Lykan Hypersport,black,gold,2.499,2.474144138,0,2.474144138,Valentina,new york,united state
-19/8/2017,Koenigsegg CCXR Trevita,red,blue,3.7044,3.667387761,3,3.557366128,Lorena,new york,united state
-5/8/2017,Bugatti La Voiture Noire,white,black,13.3518,13.22921975,2,12.96463535,Matt,new york,united state
-10/8/2017,Aston Martin Valkyrie,brown,blue,2.4696,2.439884823,0,2.439884823,Mariana,new york,united state
-17/8/2017,Bugatti La Voiture Noire,red,red,14.431725,14.25837577,0,14.25837577,Elissa,new york,united state
-15/8/2017,Lamborghini Veneno Roadster,white,gold,3.37365,3.326584964,1,3.293319114,Valentina,new york,united state
-9/8/2017,W Motors Lykan Hypersport,brown,silver,2.62395,2.599399504,1,2.573405509,Elissa,new york,united state
-9/8/2017,Rolls-Royce Sweptail,black,white,9.1392,9.000997357,1,8.910987383,Lorena,new york,united state
-15/8/2017,Lamborghini Veneno Roadster,white,silver,3.37365,3.341063805,2,3.274242529,Liz,new york,united state
-5/8/2017,Aston Martin Valkyrie,black,white,2.2848,2.257234272,1,2.234661929,Valentina,new york,united state
-5/8/2017,McLaren P1 LM,red,gold,2.855475,2.82157591,1,2.793360151,Liz,new york,united state
-4/8/2017,Bugatti Veyron by Mansory Vivere,brown,blue,2.62395,2.596172969,2,2.54424951,Livia,new york,united state
-6/8/2017,Bugatti Veyron by Mansory Vivere,black,red,2.499,2.473576741,2,2.424105206,Elissa,new york,united state
-18/8/2017,Bugatti Chiron,brown,red,2.238075,2.213722478,2,2.169448029,Maria Luisa,new york,united state
-24/8/2017,Bugatti La Voiture Noire,black,blue,13.7445,13.62030298,3,13.21169389,Samuel,toronto,canada
-2/8/2017,Bugatti La Voiture Noire,brown,blue,14.431725,14.20133854,0,14.20133854,Pedro,toronto,canada
-18/8/2017,Lamborghini Veneno Roadster,black,gold,3.3075,3.254698493,1,3.222151508,Theo,toronto,canada
-5/8/2017,Ferrari Pininfarina Sergio,red,blue,2.31525,2.293188562,0,2.293188562,Pedro,toronto,canada
-14/8/2017,Ferrari Pininfarina Sergio,black,white,2.142,2.120913475,2,2.078495205,Rafael,lisboa,portugal
-22/8/2017,McLaren P1 LM,red,black,2.7195,2.692506386,0,2.692506386,Isaac,lisboa,portugal
-18/8/2017,Ferrari Pininfarina Sergio,brown,white,2.2491,2.219347686,3,2.152767256,Rafael,lisboa,portugal
-2/8/2017,Bugatti Chiron,brown,gold,2.238075,2.209694295,2,2.165500409,Henrique,lisboa,portugal
-10/8/2017,Bugatti Chiron,brown,red,2.238075,2.217272009,1,2.195099289,Rafael,lisboa,portugal
-19/8/2017,Bugatti Veyron by Mansory Vivere,brown,silver,2.62395,2.584682459,3,2.507141985,Henrique,lisboa,portugal
-17/8/2017,W Motors Lykan Hypersport,brown,red,2.62395,2.585838653,1,2.559980267,Joaquim,lisboa,portugal
-17/8/2017,Lamborghini Veneno Roadster,black,white,3.213,3.173923616,2,3.110445143,Joaquim,lisboa,portugal
-17/8/2017,Lamborghini Veneno Roadster,black,red,3.3075,3.278259598,2,3.212694406,Nicolas,lisboa,portugal
-10/8/2017,Lamborghini Veneno Roadster,white,blue,3.37365,3.342975707,3,3.242686436,Rafael,lisboa,portugal
-2/8/2017,Bugatti La Voiture Noire,red,silver,14.431725,14.21648525,2,13.93215555,Nicolas,lisboa,portugal
-15/8/2017,Bugatti Veyron by Mansory Vivere,brown,blue,2.62395,2.588523362,0,2.588523362,Yumi,tokio,japan
-12/8/2017,Lamborghini Veneno Roadster,brown,silver,3.472875,3.441737598,2,3.372902846,Hana,tokio,japan
-14/8/2017,Aston Martin Valkyrie,black,silver,2.352,2.316750112,3,2.247247609,Sayuri,tokio,japan
-5/8/2017,Bugatti Veyron by Mansory Vivere,red,white,2.54898,2.520452645,1,2.495248119,Yumi,tokio,japan
-20/8/2017,Aston Martin Valkyrie,black,silver,2.352,2.326448206,2,2.279919241,Hinata,tokio,japan
-6/8/2017,Lamborghini Veneno Roadster,brown,white,3.37365,3.328570949,3,3.22871382,Hinata,tokio,japan
-12/8/2017,Bugatti La Voiture Noire,white,white,13.618836,13.44457907,3,13.04124169,Hana,tokio,japan
-23/8/2017,Bugatti Veyron by Mansory Vivere,brown,silver,2.62395,2.584244028,2,2.532559147,Akemi,tokio,japan
-13/8/2017,Bugatti Chiron,brown,white,2.17413,2.149569952,2,2.106578553,Yumi,tokio,japan
-6/8/2017,Bugatti La Voiture Noire,red,black,13.7445,13.57577728,2,13.30426173,Yumi,tokio,japan
-10/8/2017,Ferrari Pininfarina Sergio,white,blue,2.2491,2.226307043,3,2.159517832,Akemi,tokio,japan
-24/8/2017,Koenigsegg CCXR Trevita,black,black,3.36,3.308774181,1,3.275686439,Hinata,tokio,japan
-9/8/2017,Rolls-Royce Sweptail,brown,gold,9.8784,9.770036366,0,9.770036366,Iasmin,riad,Saudi Arabia
-11/8/2017,Bugatti La Voiture Noire,red,blue,14.431725,14.22583277,0,14.22583277,Jamile,riad,Saudi Arabia
-2/8/2017,Aston Martin Valkyrie,brown,black,2.352,2.319618083,0,2.319618083,Jamile,riad,Saudi Arabia
-8/8/2017,Ferrari Pininfarina Sergio,black,gold,2.205,2.17623034,1,2.154468036,Jamile,riad,Saudi Arabia
-7/9/2017,Lamborghini Veneno Roadster,brown,red,3.472875,3.442499284,0,3.442499284,Heloisa,managua,nicaragua
-12/9/2017,Rolls-Royce Sweptail,black,gold,9.408,9.292134156,2,9.106291473,Sophia,managua,nicaragua
-7/9/2017,Koenigsegg CCXR Trevita,brown,red,3.7044,3.646714163,1,3.610247021,Heloisa,managua,nicaragua
-22/9/2017,McLaren P1 LM,brown,black,2.7195,2.68913093,3,2.608457003,Manuela,managua,nicaragua
-10/9/2017,Koenigsegg CCXR Trevita,red,black,3.528,3.488096652,1,3.453215686,Heloisa,managua,nicaragua
-15/9/2017,McLaren P1 LM,black,white,2.6418,2.617193638,3,2.538677829,Sophia,managua,nicaragua
-21/9/2017,Koenigsegg CCXR Trevita,white,silver,3.59856,3.559861552,1,3.524262936,Sophia,managua,nicaragua
-8/9/2017,Bugatti Veyron by Mansory Vivere,brown,white,2.54898,2.508640418,3,2.433381206,Alice,managua,nicaragua
-24/9/2017,Koenigsegg CCXR Trevita,black,red,3.528,3.472264402,1,3.437541758,Alice,managua,nicaragua
-6/9/2017,Lamborghini Veneno Roadster,black,blue,3.3075,3.258482555,1,3.225897729,Laura,managua,nicaragua
-4/9/2017,W Motors Lykan Hypersport,white,blue,2.54898,2.518568775,2,2.468197399,Isabella,managua,nicaragua
-1/9/2017,Bugatti Chiron,red,silver,2.238075,2.212995138,0,2.212995138,Isabella,managua,nicaragua
-4/9/2017,Bugatti La Voiture Noire,white,red,14.01939,13.82344457,0,13.82344457,Heloisa,managua,nicaragua
-2/9/2017,Bugatti Chiron,red,red,2.238075,2.20568016,2,2.161566556,Alice,managua,nicaragua
-7/9/2017,Bugatti Chiron,brown,silver,2.238075,2.216149064,0,2.216149064,Helena,managua,nicaragua
-17/9/2017,Koenigsegg CCXR Trevita,black,white,3.4272,3.379371493,2,3.311784063,Alice,managua,nicaragua
-16/9/2017,Rolls-Royce Sweptail,brown,blue,9.8784,9.766072989,0,9.766072989,Helena,managua,nicaragua
-12/9/2017,Bugatti Chiron,white,white,2.112012,2.0881207,0,2.0881207,Livia,new york,united state
-1/9/2017,Bugatti Veyron by Mansory Vivere,brown,blue,2.62395,2.594663868,2,2.54277059,Antonella,new york,united state
-19/9/2017,Bugatti Veyron by Mansory Vivere,black,red,2.499,2.464260479,2,2.414975269,Valentina,new york,united state
-13/9/2017,Rolls-Royce Sweptail,black,silver,9.408,9.313259355,0,9.313259355,Giovanna,new york,united state
-7/9/2017,Ferrari Pininfarina Sergio,red,silver,2.31525,2.282275926,0,2.282275926,Maria Luisa,new york,united state
-11/9/2017,Lamborghini Veneno Roadster,black,blue,3.3075,3.265667367,0,3.265667367,Lorena,new york,united state
-12/9/2017,W Motors Lykan Hypersport,white,red,2.54898,2.526202282,3,2.450416214,Elissa,new york,united state
-10/9/2017,Koenigsegg CCXR Trevita,red,blue,3.7044,3.667372866,0,3.667372866,Elissa,new york,united state
-7/9/2017,Koenigsegg CCXR Trevita,white,black,3.4272,3.379247953,0,3.379247953,Lorena,new york,united state
+Date,Car,Car Model,Value in USD,Sales Person,City,Country
+4/2/2021,Toyota Corolla,Compact,"14,000",Ana,Managua,Nicaragua
+12/3/2022,Honda Civic,Compact,"16,000",Pedro,Leon,Nicaragua
+1/12/2020,Nissan Sentra,Sedan,"15,000",Juan,Granada,Nicaragua
+7/8/2022,Mazda3,Hatchback,"18,000",Maria,Masaya,Nicaragua
+5/1/2021,Chevrolet Spark,City Car,"10,000",Carlos,Bluefields,Nicaragua
+2/7/2022,Toyota Camry,Sedan,"20,000",Ana,Managua,Nicaragua
+3/6/2021,Honda Fit,City Car,"12,000",Pedro,Leon,Nicaragua
+1/1/2022,Nissan Versa,Hatchback,"18,000",Juan,Granada,Nicaragua
+9/9/2022,Mazda CX-30,Compact,"15,000",Maria,Masaya,Nicaragua
+12/12/2021,Chevrolet Malibu,Sedan,"22,000",Carlos,Bluefields,Nicaragua
+6/6/2022,Toyota Yaris,City Car,"10,000",Ana,Managua,Nicaragua
+11/11/2021,Honda Insight,Hatchback,"16,000",Pedro,Leon,Nicaragua
+7/7/2022,Nissan Altima,Compact,"14,000",Juan,Granada,Nicaragua
+8/8/2021,Mazda MX-5,Sedan,"19,000",Maria,Masaya,Nicaragua
+4/4/2022,Chevrolet Sonic,City Car,"11,000",Carlos,Bluefields,Nicaragua
+3/3/2021,Toyota RAV4,Hatchback,"17,000",Ana,Managua,Nicaragua
+2/2/2022,Honda HR-V,Compact,"15,000",Pedro,Leon,Nicaragua
+5/5/2021,Nissan Rogue,Sedan,"21,000",Juan,Granada,Nicaragua
+9/9/2021,Mazda CX-5,City Car,"10,000",Maria,Masaya,Nicaragua
+11/11/2021,Chevrolet Trax,Hatchback,"18,000",Carlos,Bluefields,Nicaragua
+12/12/2021,Toyota Avalon,Compact,"14,000",Ana,Managua,Nicaragua
+4/4/2021,Honda Odyssey,Sedan,"22,000",Pedro,Leon,Nicaragua
+5/5/2022,Nissan Murano,City Car,"10,000",Juan,Granada,Nicaragua
+8/8/2022,Mazda6,Hatchback,"16,000",Maria,Masaya,Nicaragua
+6/6/2021,Chevrolet Equinox,Compact,"13,000",Carlos,Bluefields,Nicaragua
+7/7/2021,Toyota 4Runner,Sedan,"20,000",Ana,Managua,Nicaragua
+1/1/2021,Honda CR-V,Compact,"16,000",Ana,Managua,Nicaragua
+2/2/2022,Toyota Tundra,Pickup,"35,000",Pedro,Leon,Nicaragua
+3/3/2021,Nissan Titan,Pickup,"40,000",Juan,Granada,Nicaragua
+4/4/2022,Mazda B-Series,Pickup,"25,000",Maria,Masaya,Nicaragua
+5/5/2021,Chevrolet Colorado,Pickup,"30,000",Carlos,Bluefields,Nicaragua
+6/6/2022,Toyota Tacoma,Pickup,"32,000",Ana,Managua,Nicaragua
+7/7/2021,Honda Ridgeline,Pickup,"35,000",Pedro,Leon,Nicaragua
+8/8/2022,Nissan Frontier,Pickup,"30,000",Juan,Granada,Nicaragua
+9/9/2021,Mazda BT-50,Pickup,"25,000",Maria,Masaya,Nicaragua
+10/10/2021,Chevrolet Silverado,Pickup,"45,000",Carlos,Bluefields,Nicaragua
+11/11/2021,Toyota T100,Pickup,"25,000",Ana,Managua,Nicaragua
+12/12/2022,Honda Passport,Compact,"18,000",Pedro,Leon,Nicaragua
+1/1/2023,Nissan Armada,SUV,"40,000",Juan,Granada,Nicaragua
+2/2/2023,Mazda CX-9,SUV,"30,000",Maria,Masaya,Nicaragua
+3/3/2023,Chevrolet Tahoe,SUV,"45,000",Carlos,Bluefields,Nicaragua
+4/4/2021,Toyota Land Cruiser,SUV,"50,000",Ana,Managua,Nicaragua
+5/5/2022,Honda Pilot,SUV,"40,000",Pedro,Leon,Nicaragua
+6/6/2021,Nissan Pathfinder,SUV,"35,000",Juan,Granada,Nicaragua
+7/7/2022,Mazda CX-5,Compact,"25,000",Maria,Masaya,Nicaragua
+8/8/2021,Chevrolet Equinox,Compact,"28,000",Carlos,Bluefields,Nicaragua
+9/9/2022,Toyota 4Runner,SUV,"35,000",Ana,Managua,Nicaragua
+10/10/2021,Honda HR-V,Compact,"20,000",Pedro,Leon,Nicaragua
+11/11/2022,Nissan Rogue,Compact,"22,000",Juan,Granada,Nicaragua
+12/12/2021,Mazda CX-3,Compact,"18,000",Maria,Masaya,Nicaragua
+1/1/2022,Chevrolet Trax,Compact,"20,000",Carlos,Bluefields,Nicaragua
+2/2/2022,Toyota RAV4,Compact,"25,000",Ana,Managua,Nicaragua
+3/3/2022,Honda Odyssey,Minivan,"30,000",Pedro,Leon,Nicaragua
+4/4/2022,Nissan Quest,Minivan,"35,000",Juan,Granada,Nicaragua
+5/5/2021,Chevrolet Suburban,SUV,"50,000",Carlos,Bluefields,Nicaragua
+6/6/2021,Toyota Sequoia,SUV,"45,000",Ana,Managua,Nicaragua
+7/7/2021,Honda Element,SUV,"35,000",Pedro,Leon,Nicaragua
+8/8/2021,Nissan Murano,SUV,"40,000",Juan,Granada,Nicaragua
+9/9/2021,Mazda CX-8,SUV,"30,000",Maria,Masaya,Nicaragua
+10/10/2021,Chevrolet Traverse,SUV,"45,000",Carlos,Bluefields,Nicaragua
+11/11/2021,Toyota Highlander,SUV,"35,000",Ana,Managua,Nicaragua
+12/12/2021,Honda CR-V,Compact,"20,000",Pedro,Leon,Nicaragua
+1/1/2022,Nissan Rogue,Compact,"22,000",Juan,Granada,Nicaragua
+2/2/2022,Mazda CX-3,Compact,"18,000",Maria,Masaya,Nicaragua
+3/3/2022,Chevrolet Trax,Compact,"20,000",Carlos,Bluefields,Nicaragua
+4/4/2022,Toyota RAV4,Compact,"25,000",Ana,Managua,Nicaragua
+5/5/2022,Honda Odyssey,Minivan,"30,000",Pedro,Leon,Nicaragua
+6/6/2022,Nissan Quest,Minivan,"35,000",Juan,Granada,Nicaragua
+7/7/2022,Mazda MPV,Minivan,"25,000",Maria,Masaya,Nicaragua
+8/8/2022,Chevrolet Express,Minivan,"30,000",Carlos,Bluefields,Nicaragua
+9/9/2022,Toyota Sienna,Minivan,"35,000",Ana,Managua,Nicaragua
+10/10/2022,Honda Odyssey,Minivan,"30,000",Pedro,Leon,Nicaragua
+11/11/2022,Nissan Quest,Minivan,"35,000",Juan,Granada,Nicaragua
+12/12/2022,Mazda MPV,Minivan,"25,000",Maria,Masaya,Nicaragua
+1/1/2023,Chevrolet Express,Minivan,"30,000",Carlos,Bluefields,Nicaragua
+2/2/2023,Toyota Sienna,Minivan,"35,000",Ana,Managua,Nicaragua
+3/3/2023,Honda Accord,Sedan,"25,000",Pedro,Leon,Nicaragua
+4/4/2023,Nissan Altima,Sedan,"22,000",Juan,Granada,Nicaragua
+5/5/2023,Mazda 6,Sedan,"20,000",Maria,Masaya,Nicaragua
+6/6/2023,Chevrolet Malibu,Sedan,"18,000",Carlos,Bluefields,Nicaragua
+7/7/2023,Toyota Camry,Sedan,"25,000",Ana,Managua,Nicaragua
+8/8/2023,Honda Civic,Sedan,"22,000",Pedro,Leon,Nicaragua
+9/9/2023,Nissan Sentra,Sedan,"20,000",Juan,Granada,Nicaragua
+10/10/2023,Mazda 3,Sedan,"18,000",Maria,Masaya,Nicaragua
+11/11/2023,Chevrolet Impala,Sedan,"25,000",Carlos,Bluefields,Nicaragua
+12/12/2023,Toyota Corolla,Sedan,"22,000",Ana,Managua,Nicaragua
+1/1/2022,Honda Fit,Hatchback,"18,000",Pedro,Leon,Nicaragua
+2/2/2022,Nissan Versa,Hatchback,"20,000",Juan,Granada,Nicaragua
+3/3/2022,Mazda 2,Hatchback,"15,000",Maria,Masaya,Nicaragua
+4/4/2022,Chevrolet Spark,Hatchback,"17,000",Carlos,Bluefields,Nicaragua
+5/5/2022,Toyota Yaris,Hatchback,"18,000",Ana,Managua,Nicaragua
+6/6/2022,Honda Fit,Hatchback,"18,000",Pedro,Leon,Nicaragua
+7/7/2022,Nissan Versa,Hatchback,"20,000",Juan,Granada,Nicaragua
+8/8/2022,Mazda 2,Hatchback,"15,000",Maria,Masaya,Nicaragua
+9/9/2022,Chevrolet Spark,Hatchback,"17,000",Carlos,Bluefields,Nicaragua
+10/10/2022,Toyota Yaris,Hatchback,"18,000",Ana,Managua,Nicaragua
+11/11/2022,Honda Fit,Hatchback,"18,000",Pedro,Leon,Nicaragua
+12/12/2022,Nissan Versa,Hatchback,"20,000",Juan,Granada,Nicaragua
+1/1/2023,Mazda 2,Hatchback,"15,000",Maria,Masaya,Nicaragua
+2/2/2023,Chevrolet Spark,Hatchback,"17,000",Carlos,Bluefields,Nicaragua
+3/3/2023,Toyota Yaris,Hatchback,"18,000",Ana,Managua,Nicaragua
+4/4/2023,Honda Fit,Hatchback,"18,000",Pedro,Leon,Nicaragua
+5/5/2023,Nissan Versa,Hatchback,"20,000",Juan,Granada,Nicaragua
+6/6/2023,Mazda 2,Hatchback,"15,000",Maria,Masaya,Nicaragua
+7/7/2023,Chevrolet Spark,Hatchback,"17,000",Carlos,Bluefields,Nicaragua
+8/8/2023,Toyota Yaris,Hatchback,"18,000",Ana,Managua,Nicaragua
+9/9/2023,Honda Fit,Hatchback,"18,000",Pedro,Leon,Nicaragua
+10/10/2023,Nissan Versa,Hatchback,"20,000",Juan,Granada,Nicaragua
