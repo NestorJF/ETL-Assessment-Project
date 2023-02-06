@@ -16,7 +16,9 @@ This is an ETL (extract, transform, and load) project to demonstrate how data ca
 3. Install the required packages using the following command:
 
     `pip install -r requirements.txt`
-        
+
+4. Run the **etl_schema.sql** script in MySQL to create the database with the car_sale table.
+
 ## Setting up the environment
 
 Create a .env file in the root directory of the project with the following content:
