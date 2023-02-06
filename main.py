@@ -1,3 +1,5 @@
+import argparse
+
 from src.extraction import Extraction
 from src.transformation import Transformation
 from src.data_loader import DataLoader
@@ -5,9 +7,9 @@ from config import CONFIG
 from logger import logger
 
 
-
-
-if __name__ == "__main__":
+def main(args):
+    file_path = args.file_path if args.file_path else CONFIG.DATASET_DEFAULT_PATH
+    print("file_path", file_path)
     logger.info("################# Starting ETL Process for Car Sales Dataset #################")
     try:
         logger.info("------- Starting to Extract information from dataset --------")
@@ -26,3 +28,10 @@ if __name__ == "__main__":
     except Exception as e:
         logger.exception("ETL Process failed: ", exc_info=e)
     logger.info("#################The ETL Process for Car Sales Dataset has finished #################")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="ETL Process")
+    parser.add_argument("--file_path", type=str, help="Path to the dataset")
+    args = parser.parse_args()
+    main(args)
+    

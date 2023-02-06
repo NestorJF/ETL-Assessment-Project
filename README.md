@@ -33,7 +33,7 @@ Replace ```<hostname>, <username>, <password>, and <database>``` with the actual
 
 Run the following command to start the ETL process:
 
-    `python main.py`
+`python main.py`
 
 ## Explanation
 The ETL process is divided into three classes for better organization and maintainability:
