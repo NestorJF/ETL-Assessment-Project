@@ -1,5 +1,4 @@
-from src.database_connection.mysql_client import MySQLClient
-import pandas as pd
+from src.db_connector.mysql_client import MySQLClient
 
 
 class DataLoader:

@@ -19,7 +19,7 @@ class MySQLClient:
         self.cursor = self.conn.cursor()
         return self
 
-    def __exit__(self):
+    def __exit__(self, exc_type, exc_val, exc_tb):
         self.conn.commit()
         self.cursor.close()
         self.conn.close()

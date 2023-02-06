@@ -1,9 +1,9 @@
-from src.extract import Extract
-from src.transform import Transformation
-from src.load import DataLoader
+from extraction import Extraction
+from transformation import Transformation
+from data_loader import DataLoader
 
 if __name__ == "__main__":
-    extract = Extract("data/input/car_sales_dataset.csv")
+    extract = Extraction("data/input/car_sales_dataset.csv")
     dataset = extract.extract_data("csv")
     transform = Transformation("csv", dataset)
     new_dataset = transform.start_transformation()

@@ -1,6 +1,6 @@
 import pandas as pd
 
-class Extract:
+class Extraction:
     def __init__(self, file_path):
         self.file_path = file_path
         
