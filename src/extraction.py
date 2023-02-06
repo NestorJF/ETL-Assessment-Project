@@ -1,4 +1,5 @@
 import pandas as pd
+from logger import logger
 
 class Extraction:
     """
@@ -16,12 +17,17 @@ class Extraction:
             dataset = self._extract_from_csv()
             return dataset
         else:
-            print("No data source found.")
+            logger.error("Datasource not valid. Please check.")
+            return None
         
     def _extract_from_csv(self):
         """
         Reads the CSV file specified in the constructor and returns a Pandas DataFrame
         :return: DataFrame containing the extracted data            
         """
-        data = pd.read_csv(self.file_path, thousands=',')
-        return data
+        try:
+            data = pd.read_csv(self.file_path, thousands=',')
+        except FileNotFoundError as e:
+            logger.exception("Dataset not found: ", exc_info=e)
+        else:
+            return data

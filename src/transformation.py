@@ -1,5 +1,5 @@
 import pandas as pd
-
+from logger import logger
 
 class Transformation:
     """
@@ -16,9 +16,10 @@ class Transformation:
         transformed_dataset = None
         if isinstance(self.dataset, pd.DataFrame):
             new_dataframe = self._transform_dataframe()
-            transformed_dataset = self._convert_dataframe_to_list(new_dataframe)
+            if not new_dataframe.empty:
+                transformed_dataset = self._convert_dataframe_to_list(new_dataframe)
         else:
-            print("TO DO: Add a new transformation process for this type of dataset.")
+            logger.error("TO DO: Add a new transformation process for this type of dataset.")
         return transformed_dataset
         
     def _transform_dataframe(self):
@@ -32,13 +33,16 @@ class Transformation:
         :return: The transformed dataframe.
         """
         new_dataset = self.dataset.copy()
-        new_dataset = new_dataset.dropna()
-        new_dataset["Date"] = pd.to_datetime(new_dataset["Date"])
-        new_dataset["Year of the Sale"] = new_dataset["Date"].dt.strftime('%Y')
-        new_dataset["Date"] = new_dataset["Date"].dt.strftime('%Y-%m-%d')
-        new_dataset['Car Model'] = new_dataset['Car Model'].astype('category')
-        new_dataset['Car Model'] = new_dataset['Car Model'].cat.codes
-        new_dataset['Value in USD'] = new_dataset['Value in USD'].astype(float)
+        try:
+            new_dataset = new_dataset.dropna()
+            new_dataset["Date"] = pd.to_datetime(new_dataset["Date"])
+            new_dataset["Year of the Sale"] = new_dataset["Date"].dt.strftime('%Y')
+            new_dataset["Date"] = new_dataset["Date"].dt.strftime('%Y-%m-%d')
+            new_dataset['Car Model'] = new_dataset['Car Model'].astype('category')
+            new_dataset['Car Model'] = new_dataset['Car Model'].cat.codes
+            new_dataset['Value in USD'] = new_dataset['Value in USD'].astype(float)
+        except (KeyError, ValueError):
+            logger.exception("Failed to transform dataset. Please check: ", exc_info=e)
         return new_dataset
 
     def _convert_dataframe_to_list(self, dataframe: pd.DataFrame):
