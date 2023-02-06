@@ -33,9 +33,13 @@ Replace ```<hostname>, <username>, <password>, and <database>``` with the actual
 
 ## Running the ETL process
 
-Run the following command to start the ETL process:
+* Run the following command to start the ETL process with the default dataset path (data/input/car_sales_dataset.csv):
 
-`python main.py`
+    `python main.py`
+
+* Add the argument **--file_path** to use a different dataset path:
+  
+  ```python main.py --file_path "path/to/dataset.csv"```
 
 ## Explanation
 The ETL process is divided into three classes for better organization and maintainability:
