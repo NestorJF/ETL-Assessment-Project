@@ -9,7 +9,7 @@ from logger import logger
 
 def main(args):
     file_path = args.file_path if args.file_path else CONFIG.DATASET_DEFAULT_PATH
-    print("file_path", file_path)
+    logger.info(f"File path of the dataset: {file_path}")
     logger.info("################# Starting ETL Process for Car Sales Dataset #################")
     try:
         logger.info("------- Starting to Extract information from dataset --------")
