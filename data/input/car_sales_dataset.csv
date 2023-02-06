@@ -8,6 +8,7 @@ Date,Car,Car Model,Value in USD,Sales Person,City,Country
 3/6/2021,Honda Fit,City Car,"12,000",Pedro,Leon,Nicaragua
 1/1/2022,Nissan Versa,Hatchback,"18,000",Juan,Granada,Nicaragua
 9/9/2022,Mazda CX-30,Compact,"15,000",Maria,Masaya,Nicaragua
+,,,,,,
 12/12/2021,Chevrolet Malibu,Sedan,"22,000",Carlos,Bluefields,Nicaragua
 6/6/2022,Toyota Yaris,City Car,"10,000",Ana,Managua,Nicaragua
 11/11/2021,Honda Insight,Hatchback,"16,000",Pedro,Leon,Nicaragua
@@ -33,6 +34,7 @@ Date,Car,Car Model,Value in USD,Sales Person,City,Country
 6/6/2022,Toyota Tacoma,Pickup,"32,000",Ana,Managua,Nicaragua
 7/7/2021,Honda Ridgeline,Pickup,"35,000",Pedro,Leon,Nicaragua
 8/8/2022,Nissan Frontier,Pickup,"30,000",Juan,Granada,Nicaragua
+,,,,,,
 9/9/2021,Mazda BT-50,Pickup,"25,000",Maria,Masaya,Nicaragua
 10/10/2021,Chevrolet Silverado,Pickup,"45,000",Carlos,Bluefields,Nicaragua
 11/11/2021,Toyota T100,Pickup,"25,000",Ana,Managua,Nicaragua
@@ -59,13 +61,13 @@ Date,Car,Car Model,Value in USD,Sales Person,City,Country
 8/8/2021,Nissan Murano,SUV,"40,000",Juan,Granada,Nicaragua
 9/9/2021,Mazda CX-8,SUV,"30,000",Maria,Masaya,Nicaragua
 10/10/2021,Chevrolet Traverse,SUV,"45,000",Carlos,Bluefields,Nicaragua
-11/11/2021,Toyota Highlander,SUV,"35,000",Ana,Managua,Nicaragua
+11/11/2021,Toyota Highlander,SUV,,Ana,Managua,Nicaragua
 12/12/2021,Honda CR-V,Compact,"20,000",Pedro,Leon,Nicaragua
 1/1/2022,Nissan Rogue,Compact,"22,000",Juan,Granada,Nicaragua
 2/2/2022,Mazda CX-3,Compact,"18,000",Maria,Masaya,Nicaragua
 3/3/2022,Chevrolet Trax,Compact,"20,000",Carlos,Bluefields,Nicaragua
 4/4/2022,Toyota RAV4,Compact,"25,000",Ana,Managua,Nicaragua
-5/5/2022,Honda Odyssey,Minivan,"30,000",Pedro,Leon,Nicaragua
+5/5/2022,Honda Odyssey,Minivan,"30,000",,,
 6/6/2022,Nissan Quest,Minivan,"35,000",Juan,Granada,Nicaragua
 7/7/2022,Mazda MPV,Minivan,"25,000",Maria,Masaya,Nicaragua
 8/8/2022,Chevrolet Express,Minivan,"30,000",Carlos,Bluefields,Nicaragua

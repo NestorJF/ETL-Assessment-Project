@@ -28,6 +28,8 @@ class Extraction:
         try:
             data = pd.read_csv(self.file_path, thousands=',')
         except FileNotFoundError as e:
-            logger.exception("Dataset not found: ", exc_info=e)
+            logger.exception("File not found: ", exc_info=e)
+        except UnicodeDecodeError as e:
+            logger.exception("This file is not a valid CSV format. Please check:", exc_info=e)
         else:
             return data
