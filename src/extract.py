@@ -17,5 +17,5 @@ class Extract:
         Reads the CSV file specified in the constructor and returns a Pandas DataFrame
         :return: DataFrame containing the extracted data            
         """
-        data = pd.read_csv(self.file_path)
+        data = pd.read_csv(self.file_path, thousands=',')
         return data
