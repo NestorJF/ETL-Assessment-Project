@@ -5,8 +5,7 @@ class Transformation:
     """
     This class is responsible for transforming a dataset into a desired format.
     """
-    def __init__(self, datasource, dataset):
-        self.datasource = datasource
+    def __init__(self, dataset):
         self.dataset = dataset
 
     def start_transformation(self):
@@ -15,7 +14,7 @@ class Transformation:
         :return: A list with the transformed dataset.
         """
         transformed_dataset = None
-        if isinstance(self.datasource, pd.DataFrame):
+        if isinstance(self.dataset, pd.DataFrame):
             new_dataframe = self._transform_dataframe()
             transformed_dataset = self._convert_dataframe_to_list(new_dataframe)
         else:

@@ -1,5 +1,5 @@
 from src.db_connector.mysql_client import MySQLClient
-
+from config import CONFIG
 
 class DataLoader:
     """
@@ -12,7 +12,7 @@ class DataLoader:
         """
         Open connection and inserts the data values into a MySQL database table.
         """
-        with MySQLClient(host='', user='', password='', database='') as client:
+        with MySQLClient(host=CONFIG.MYSQL_HOST, user=CONFIG.MYSQL_USER, password=CONFIG.MYSQL_PASSWORD, database=CONFIG.MYSQL_DATABASE) as client:
             client.insert(table, table_columns, self.data_values)
     
     
